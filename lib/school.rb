@@ -17,13 +17,12 @@ class School
   end
 
 def grade(num)
-
-    @roster.each do |key, value|
-      if key == num
+  @roster.each do |key, value|
+    if key == num
       return value
       end
     end
-  
-    end
+  end
+
 
 end
