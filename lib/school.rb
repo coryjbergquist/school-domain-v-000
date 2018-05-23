@@ -21,5 +21,4 @@ def grade(num)
       if key == num
         value
       end
-  end
 end
