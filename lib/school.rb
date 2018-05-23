@@ -23,6 +23,7 @@ def grade(num)
       new_array << value
       end
     end
-    end
     new_array
+    end
+
 end
