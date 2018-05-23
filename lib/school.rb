@@ -19,5 +19,6 @@ def add_student(name, grade)
 @roster.each do |name, grade|
   @roster << name grade
 end
+end
 
 end
