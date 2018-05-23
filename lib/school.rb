@@ -32,7 +32,7 @@ class School
     end
     newer_hash = {}
 
-    newer_hash << new_hash.sort
+    newer_hash < new_hash.sort
     newer_hash
   end
 
