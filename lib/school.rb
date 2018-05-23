@@ -22,4 +22,5 @@ def grade(num)
         value
       end
     end
+    end
 end
