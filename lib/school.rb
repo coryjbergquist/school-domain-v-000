@@ -25,7 +25,7 @@ def grade(num)
   end
 
   def sort
-    @roster.sort.flatten
+    @roster = @roster.sort
   end
 
 
