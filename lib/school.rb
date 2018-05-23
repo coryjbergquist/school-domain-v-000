@@ -20,7 +20,7 @@ def grade(num)
   new_array = []
     @roster.each do |key, value|
       if key == num
-      new_array <<  value
+      new_array << value
       end
     end
     end
