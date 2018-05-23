@@ -7,7 +7,7 @@ class School
     @roster = {}
   end
 
-  def name 
+  def name
     @name
   end
 
