@@ -24,4 +24,5 @@ def grade(num)
       end
     end
     end
+    new_array
 end
