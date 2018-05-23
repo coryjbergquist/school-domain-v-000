@@ -25,8 +25,7 @@ def grade(num)
   end
 
   def sort
-    @roster.values.sort
-    @roster
+    @roster.sort_by!{ |k| k["value"]}
 
   end
 
