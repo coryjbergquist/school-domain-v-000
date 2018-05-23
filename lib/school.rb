@@ -21,6 +21,7 @@ def grade(num)
       if num == grade
       name
     end
+  end
 end
 
 
