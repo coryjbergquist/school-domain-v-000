@@ -25,10 +25,9 @@ def grade(num)
   end
 
   def sort
-    new_hash = {}
-  @roster.map do |key, value|
-    new_hash[key] ||= []
-    new_hash[key] << value.sort
+  @roster.each do |key, value|
+    value.sort
+    
   end
 
   end
