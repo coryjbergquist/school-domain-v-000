@@ -17,8 +17,9 @@ class School
   end
 
 def grade(num)
-    if num == @roster.keys
-      return @roster.values
+    @roster.each do |grade, name|
+      if num == grade
+      name
     end
 end
 
