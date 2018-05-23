@@ -24,8 +24,11 @@ class School
   end
 
   def sort
-    @roster.map do |key, value|
-    value.sort
+    new_hash {}
+    @roster.each do |key, value|
+      new_hash[key] = []
+      new_hash[key] << value.sort
+    
     end
   end
 
