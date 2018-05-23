@@ -17,11 +17,11 @@ class School
 def add_student(name, grade)
   def add(arg)
     arg.each do |name, grade|
-  @roster[name] = []
-  @roster[name] << grade
+  ROSTER[name] = []
+  ROSTER[name] << grade
 end
 end
-@roster
+ROSTER
 end
 
 
