@@ -25,7 +25,9 @@ def grade(num)
   end
 
   def sort
-    @roster = @roster.sort
+    @roster.sort do |key, value|
+      key[1]<=>valuevalue[1]
+    end
   end
 
 
