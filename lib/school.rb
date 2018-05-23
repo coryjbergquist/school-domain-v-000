@@ -23,7 +23,7 @@ def grade(num)
       new_array << value
       end
     end
-    new_array
+    new_array.flatten
     end
 
 end
