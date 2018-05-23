@@ -20,6 +20,7 @@ def grade(num)
   @roster.each do |grade, name|
     if num == @roster.key
       return @roster.value
+    end
 end
 
 
