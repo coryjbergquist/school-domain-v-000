@@ -7,7 +7,7 @@ class School
   end
 
   def roster
-    ROSTER = {}
+    @roster = {}
   end
 
   def name
@@ -17,11 +17,10 @@ class School
 def add_student(name, grade)
   def add(arg)
     arg.each do |name, grade|
-  ROSTER[name] = []
-  ROSTER[name] << grade
+  @roster[name] = []
+  @roster[name] << grade
 end
 end
-ROSTER
 end
 
 
