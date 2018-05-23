@@ -25,7 +25,8 @@ def grade(num)
   end
 
   def sort
-    @roster.sort
+    sorted_hash = {}
+    sorted_hash << @roster.sort
   end
   
 
