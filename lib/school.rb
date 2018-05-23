@@ -21,6 +21,7 @@ def grade(num)
     if num == @roster.key
       return @roster.value
     end
+  end
 end
 
 
