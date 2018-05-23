@@ -30,7 +30,7 @@ def grade(num)
     new_hash[key] ||= []
     new_hash[key] << value.sort
   end
-  new_hash.sort.flatten
+  new_hash.sort
 
   end
 
