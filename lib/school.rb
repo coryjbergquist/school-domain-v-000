@@ -30,7 +30,9 @@ class School
       new_hash[key] << value.sort
 
     end
-    new_hash.sort
+    newer_hash = {}
+
+    newer_hash << new_hash.sort
   end
 
 
