@@ -26,11 +26,11 @@ def grade(num)
 
   def sort
     new_hash = {}
-  @roster.map do |key, value| 
+  @roster.map do |key, value|
     new_hash[key]
     new_hash[key] << value.sort
   end
-  @roster
+  new_hash
 
   end
 
