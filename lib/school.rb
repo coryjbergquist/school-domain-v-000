@@ -4,7 +4,7 @@ class School
 
   attr_reader :name
 
-  @roster = {}
+  @@roster = {}
 
   def initialize(name)
     @name = name
@@ -15,7 +15,7 @@ class School
 
   def add_student(name, grade)
     @roster[grade] ||= []
-  
+
     @roster[grade]<< name
 end
 
