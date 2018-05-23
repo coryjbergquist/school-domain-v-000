@@ -16,7 +16,8 @@ class School
   end
 
 def add_student(name, grade)
-@roster << {name, grade}
+@roster.each do |name, grade|
+  @roster << name grade
 end
 
 end
