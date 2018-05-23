@@ -18,4 +18,5 @@ class School
 
 def grade(num)
     @roster.keys
+  end
 end
