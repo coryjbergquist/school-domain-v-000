@@ -17,9 +17,10 @@ class School
   end
 
 def grade(num)
+  new_array = []
     @roster.each do |key, value|
       if key == num
-        value
+      new_array <<  value
       end
     end
     end
