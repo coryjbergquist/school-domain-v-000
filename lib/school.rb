@@ -17,6 +17,9 @@ class School
   end
 
 def grade(num)
-    @roster.keys.include?(num)
+    @roster.each do |key, value|
+      if key == num
+        value
+      end
   end
 end
