@@ -12,14 +12,13 @@ class School
 
   def add_student(name, grade)
     @roster[grade] ||= []
-
     @roster[grade]<< name
   end
 
-def grade(num)
-  @roster.each do |key, value|
-    if key == num
-      return value
+  def grade(num)
+    @roster.each do |key, value|
+      if key == num
+        return value
       end
     end
   end
