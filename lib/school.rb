@@ -6,17 +6,17 @@ class School
 
   def initialize(name)
     @name = name
-  end
-
-  def roster
-    @roster = {}
+    def roster
+      @roster = {}
+    end
   end
 
 
   def add_student(name, grade)
-      @roster[name] ||= []
-      @roster[name] << grade
-  end
+    @roster[grade] ||= []
+  
+    @roster[grade]<< name
+end
 
 
 end
