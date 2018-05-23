@@ -25,7 +25,10 @@ def grade(num)
   end
 
   def sort
-    @roster.sort_by{ |k| k["value"]}
+  @roster.map do |key, value|
+    value.sort
+  end
+  @roster
 
   end
 
