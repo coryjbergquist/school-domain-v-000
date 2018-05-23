@@ -26,7 +26,6 @@ def grade(num)
 
   def sort
     @roster = @roster.sort
-    @roster
   end
 
 
