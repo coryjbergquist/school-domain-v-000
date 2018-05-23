@@ -17,13 +17,13 @@ class School
   end
 
 def grade(num)
-  new_array = []
+
     @roster.each do |key, value|
       if key == num
-      new_array << value
+      return value
       end
     end
-    new_array.flatten
+  
     end
 
 end
