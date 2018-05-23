@@ -18,6 +18,8 @@ class School
 def add_student(one)
 one.each do |name, grade|
   @roster[name] = grade
+end
+
 
 end
 
