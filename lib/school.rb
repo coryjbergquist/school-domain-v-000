@@ -26,7 +26,7 @@ def grade(num)
 
   def sort
     @roster.map do |key, value|
-      value.sort
+      key value.sort
     end
   end
 
