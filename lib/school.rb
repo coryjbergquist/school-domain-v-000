@@ -17,9 +17,9 @@ class School
   end
 
 def grade(num)
-    @roster.each do |x, y|
-      if num == x
-      y
+    @roster.each do |name, grade|
+      if num == grade
+      name
     end
   end
 end
